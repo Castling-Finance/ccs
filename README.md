@@ -10,7 +10,7 @@ CCCS allows swaps between any token on chain A for any token on chain B using st
 
 Over the years, many cross-chain swapping mechanisms have emerged. CCCS aims to be a decentralised, completely permissionless and highly compossible swapping solution. This is achieved by the following structure:
 
-![structure](https://github.com/Castling-Finance/ccs/blob/3fe82a7bc3b6140b694b98ecd1eb3c9a1c2a26d7/structure.png?raw=true)
+![structure](https://github.com/Castling-Finance/ccs/blob/main/imgs/structure.png?raw=true)
 
 In the above example, we swap wMATIC tokens on Mumbai Chain for equivalent WETH tokens on Goerli Chain. The journey of this swap is as follows:
 
@@ -28,7 +28,7 @@ The above swap design requires the maintenance of optimum liquidity levels of st
 
 To achieve this, we introduce a hub and spoke model that relays VAA flow from Wormhole Guardians to dynamically adjust fees on each chain based on liquidity availability and requirement. A high level structure looks like this:
 
-![relayer](https://github.com/Castling-Finance/ccs/blob/main/relayer.png?raw=true)
+![relayer](https://github.com/Castling-Finance/ccs/blob/main/imgs/relayer.png?raw=true)
 
 This fee structure will work as follows:
 
@@ -40,7 +40,7 @@ This fee structure will work as follows:
 
 The fee structure based on liquidity ratios looks like this:
 
-![Fees](https://github.com/Castling-Finance/ccs/blob/main/fees.png?raw=true)
+![Fees](https://github.com/Castling-Finance/ccs/blob/main/imgs/fees.png?raw=true)
 
 ## Other considerations
 
