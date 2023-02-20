@@ -56,3 +56,8 @@ As new chains launch and multi-chain paradigm grows, users shouldn't need to mai
 With advent of stablecoin bridging, we envisage a multi-base token system where liquidity is held in multiple stablecoins. For example, swap could use USDC at source chain and USDT reserves at destination chain. 
 
 This would help in easing liquidity management and allow for routing transactions through DEXs with lower slippage.
+
+## Contact
+For any questions/queries, contact here:
+
+Email: yash@castling.finance | TG: yszanwar
